@@ -1616,7 +1616,8 @@ FROM
     ('weth-weth', 'ethereum', 'bpETH', '0x0000000000a39bb272e79075ade125fd351887ac', 18),
     ('pepe-pepe1', 'ethereum', 'PEPE', '0x6982508145454Ce325dDbE47a25d4ec3d2311933', 18),   
     ('grain-granary','ethereum','GRAIN','0xf88baf18fab7e330fa0c4f83949e23f52fececce',18),
-    ('verse-verse-token', 'ethereum', 'VERSE', '0x249ca82617ec3dfb2589c4c17ab7ec9765350a18', 18)
+    ('verse-verse-token', 'ethereum', 'VERSE', '0x249ca82617ec3dfb2589c4c17ab7ec9765350a18', 18),
+    ('premia-premia', 'ethereum', 'PREMIA', '0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70', 18)
     ) as temp (token_id, blockchain, symbol, contract_address, decimals)
 where contract_address not in (
     -- bad price feeds
