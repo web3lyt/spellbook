@@ -99,5 +99,6 @@ FROM
     ("arb-arbitrum","arbitrum","ARB","0x912ce59144191c1204e64559fe8253a0e49e6548",18),
     ("agi-auragi","arbitrum","AGI","0xff191514a9baba76bfd19e3943a4d37e8ec9a111",18),
     ("grain-granary","arbitrum","GRAIN","0x80bb30d62a16e1f2084deae84dc293531c3ac3a1",18),
-    ("oath-oath","arbitrum","OATH","0xa1150db5105987cec5fd092273d1e3cbb22b378b",18)
+    ("oath-oath","arbitrum","OATH","0xa1150db5105987cec5fd092273d1e3cbb22b378b",18),
+    ("premia-premia","arbitrum","PREMIA","0x51fc0f6660482ea73330e414efd7808811a57fa2",18)
 ) as temp (token_id, blockchain, symbol, contract_address, decimals)
